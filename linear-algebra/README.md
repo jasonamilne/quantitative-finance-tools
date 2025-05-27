@@ -5,6 +5,7 @@ This directory contains implementations and tutorials on linear algebra operatio
 ## Contents
 
 - [Matrix-Vector Operations](./matrix_vector_operations.ipynb): Implementations of matrix-vector multiplication with type safety and performance benchmarks.
+- [Matrix-Transpose Operations](./matrix_transpose_operations.ipynb): Implementations of matrix-transpose operations with type safety and performance benchmarks.
 
 ## Overview
 
