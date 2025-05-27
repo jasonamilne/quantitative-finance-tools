@@ -1,46 +1,94 @@
-# Linear Algebra Tools for Quantitative Finance
+# Quantitative Finance Tools
 
-This directory contains implementations and tutorials on linear algebra operations essential for quantitative finance applications.
+A collection of tools, implementations, and tutorials for quantitative finance applications, focusing on the mathematical foundations and computational techniques used in financial modeling.
 
-## Contents
+## Repository Structure
 
-- [Matrix-Vector Operations](./matrix_vector_operations.ipynb): Implementations of matrix-vector multiplication with type safety and performance benchmarks.
+- [**Linear Algebra**](./linear-algebra/): Mathematical operations fundamental to financial models
+  - [Matrix-Vector Operations](./linear-algebra/matrix_vector_operations.ipynb): Efficient implementations of matrix-vector multiplication with type safety and performance benchmarking (Python, NumPy, PyTorch) ([GitHub Link](https://github.com/jasonamilne/quantitative-finance-tools/blob/main/linear-algebra/matrix_vector_operations.ipynb))
+  - (Future: Matrix decompositions, eigenvalue analysis, etc.)
 
-## Overview
+- **Statistical Methods** (Coming Soon)
+  - Time series analysis
+  - Statistical tests
+  - Probability distributions
 
-Linear algebra is the foundation of many quantitative finance techniques:
+- **Portfolio Theory** (Coming Soon)
+  - Mean-variance optimization
+  - Risk metrics
+  - Performance attribution
 
-- Portfolio optimization
-- Risk modeling and management
-- Derivatives pricing
-- Factor models
-- Time series analysis
+- **Derivatives Pricing** (Coming Soon)
+  - Options pricing models
+  - Interest rate models
+  - Monte Carlo simulations
 
-The tools in this directory focus on both educational value (understanding the operations) and practical implementations optimized for financial applications.
+- **Machine Learning for Finance** (Coming Soon)
+  - Factor modeling
+  - Regime detection
+  - Predictive analytics
 
-## Implementation Philosophy
+## Purpose
 
-Each notebook follows these principles:
+This repository serves multiple purposes:
 
-1. **Educational First**: Clear explanations of mathematical concepts and their financial applications
-2. **Progressive Implementation**: Starting with basic implementations and evolving to production-ready code
-3. **Type Safety**: Proper type hints to ensure code robustness
-4. **Performance**: Benchmarking different approaches with a focus on optimizations needed for financial applications
-5. **Financial Context**: Examples and applications specific to finance
+1. **Educational Resource**: Clear implementations of quantitative finance concepts with detailed explanations
+2. **Reference Implementations**: Clean, type-safe, and optimized code for common financial calculations
+3. **Performance Benchmarking**: Comparisons of different implementation approaches with a focus on efficiency
+4. **Best Practices**: Demonstrations of proper coding patterns for financial applications
 
-## Usage
+## Key Features
 
-Each notebook can be used as:
+- **Mathematical Rigor**: Implementations adhere to established financial mathematics principles
+- **Performance Optimization**: Focus on computational efficiency critical for financial applications
+- **Type Safety**: Proper type hints and error handling for robust financial code
+- **Hardware Acceleration**: Where applicable, GPU-accelerated implementations for large-scale financial computations
+- **Financial Context**: Each implementation includes discussion of its applications in finance
 
-- A learning resource for understanding the mathematical foundations of quantitative finance
-- A reference for implementing these operations in your own financial models
-- A benchmark for comparing different implementation approaches
+## Technologies
+
+- **Python**: Core language for implementations
+- **NumPy**: Optimized numerical operations
+- **PyTorch**: GPU-accelerated computing and deep learning capabilities
+- **Jupyter Notebooks**: Interactive exploration and visualization
+
+## Getting Started
+
+To explore the repository, start with the matrix-vector operations notebook:
+
+```bash
+# Clone the repository
+git clone https://github.com/jasonamilne/quantitative-finance-tools.git
+cd quantitative-finance-tools
+
+# Explore the linear algebra implementations
+jupyter notebook linear-algebra/matrix_vector_operations.ipynb
+```
 
 ## Requirements
 
-Most notebooks require:
 - Python 3.7+ (some advanced features require Python 3.10+)
 - NumPy for optimized implementations
+- PyTorch (optional) for GPU-accelerated operations
 - Jupyter for interactive exploration
 
-Additional dependencies are noted in each notebook.
+## Contribution Guidelines
+
+Contributions are welcome! Please follow these guidelines:
+
+1. Each implementation should include:
+   - Clear mathematical explanations
+   - Financial applications and context
+   - Type-safe implementation
+   - Performance considerations
+   - Tests and/or validation
+
+2. Code Style:
+   - Follow PEP 8 guidelines
+   - Include proper type hints
+   - Add comprehensive docstrings
+   - Use descriptive variable names
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
