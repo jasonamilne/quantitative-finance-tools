@@ -92,3 +92,8 @@ Contributions are welcome! Please follow these guidelines:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+### MIT License Summary
+- **Permissions**: Commercial use, Modification, Distribution, Private use
+- **Limitations**: No liability, No warranty
+- **Conditions**: License and copyright notice must be included
