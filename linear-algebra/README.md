@@ -7,7 +7,7 @@ This directory contains implementations and tutorials on linear algebra operatio
 - [Matrix-Vector Operations](./matrix_vector_operations.ipynb): Implementations of matrix-vector multiplication with type safety and performance benchmarks.
 - [Matrix-Transpose Operations](./matrix_transpose_operations.ipynb): Implementations of matrix-transpose operations with type safety and performance benchmarks.
 - [Matrix-Reshape Operations](./matrix_reshape_operations.ipynb): Implementations of matrix-reshape operations with type safety and performance benchmarks.
-- [Matrix-Mean Calculations](./matrix_transpose_operations.ipynb): Implementations of matrix-mean calculations with type safety and performance benchmarks.
+- [Matrix-Mean Calculations](./matrix_mean_calculations.ipynb): Implementations of matrix-mean calculations with type safety and performance benchmarks.
 
 ## Overview
 
