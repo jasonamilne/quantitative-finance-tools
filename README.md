@@ -6,7 +6,8 @@ A collection of tools, implementations, and tutorials for quantitative finance a
 
 - [**Linear Algebra**](./linear-algebra/): Mathematical operations fundamental to financial models
   - [Matrix-Vector Operations](./linear-algebra/matrix_vector_operations.ipynb): Efficient implementations of matrix-vector multiplication with type safety and performance benchmarking (Python, NumPy, PyTorch) ([GitHub Link](https://github.com/jasonamilne/quantitative-finance-tools/blob/main/linear-algebra/matrix_vector_operations.ipynb))
-  - [Matrix-Transpose Operations](./matrix_transpose_operations.ipynb): Implementations of matrix-transpose operations with type safety and performance benchmarks (Python, NumPy, PyTorch) ([GitHub Link](https://github.com/jasonamilne/quantitative-finance-tools/blob/main/linear-algebra/matrix_transpose_operations.ipynb))
+  - [Matrix-Transpose Operations](./linear-algebra/matrix_transpose_operations.ipynb): Implementations of matrix-transpose operations with type safety and performance benchmarks (Python, NumPy, PyTorch) ([GitHub Link](https://github.com/jasonamilne/quantitative-finance-tools/blob/main/linear-algebra/matrix_transpose_operations.ipynb))
+  - [Matrix-Reshape Operations](./linear-algebra/matrix_reshape_operations.ipynb): Implementations of matrix-reshape operations with type safety and performance benchmarks (Python, NumPy, PyTorch) ([GitHub Link](https://github.com/jasonamilne/quantitative-finance-tools/blob/main/linear-algebra/matrix_reshape_operations.ipynb))
   - (Future: Matrix decompositions, eigenvalue analysis, etc.)
 
 - **Statistical Methods** (Coming Soon)
